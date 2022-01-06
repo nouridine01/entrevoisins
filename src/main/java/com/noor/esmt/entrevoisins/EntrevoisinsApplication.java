@@ -13,6 +13,7 @@ public class EntrevoisinsApplication implements CommandLineRunner {
 	@Autowired
 	RepositoryRestConfiguration repositoryRestConfiguration;
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(EntrevoisinsApplication.class, args);
 	}
